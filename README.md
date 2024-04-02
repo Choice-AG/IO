@@ -11,6 +11,20 @@ Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
 composer install
 ```
 
+-- Crear la base de datos
+CREATE DATABASE api;
+
+-- Usar la base de datos recién creada
+USE api;
+
+-- Crear la tabla 'users' con los campos especificados
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255)
+);
+
+
 ## Iniciar el servidor
 
 Para iniciar el servidor, ejecuta el siguiente comando:
