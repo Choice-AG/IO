@@ -7,25 +7,25 @@ Esta API proporciona endpoints para la gestión de usuarios.
 
 Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
 
-```bash
+```
 composer install
 ```
 
 Crear la base de datos
 
-```bash
+```sql
 CREATE DATABASE api;
 ```
 
 Usar la base de datos recién creada
 
-```bash
+```sql
 USE api;
 ```
 
 Crear la tabla 'users' con los campos especificados
 
-```bash
+```sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
@@ -37,7 +37,7 @@ CREATE TABLE users (
 
 Para iniciar el servidor, ejecuta el siguiente comando:
 
-```bash
+```
 php -S localhost:8000 -t ./public
 ```
 
